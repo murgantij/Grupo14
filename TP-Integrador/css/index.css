@@ -1,0 +1,118 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+   
+    
+
+}
+header {
+    grid-area: header;
+    
+    padding: 1em;
+    text-align: center;
+   
+}
+
+
+aside {
+    grid-area: aside;
+    padding: 1em;
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;    
+}
+
+main {
+    grid-area: main;
+    padding: 1em;
+
+}
+
+main h2 {
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(25, 24, 24);
+  
+}
+
+header img{
+    float: left;
+    width: 5rem;
+    height: 5rem;
+}
+
+h1{
+    display: none;
+}
+
+
+/* Configuracion productos */
+
+.productos{
+    float: auto;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.producto{
+    margin: 5px;
+    float:  left;
+    border: 2px solid rgb(30, 43, 63);
+    border-radius: 1rem;
+}
+
+
+
+.producto img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.producto h2{
+    margin: 10 px 0;
+}
+
+.producto a{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+/*aside*/
+.accesorio img{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+aside h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(30, 43, 63);
+    border-radius: 1rem;
+}
+
+
