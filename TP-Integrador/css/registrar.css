@@ -1,0 +1,182 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header "
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+    gap: 0px;
+    height: 100vh;
+    margin: 10rem;
+   
+    
+
+}
+header {
+    grid-area: header;
+    
+    padding: 1em;
+    text-align: center;
+   
+}
+
+
+
+
+main {
+    color: white;
+    grid-area: main;
+    padding: 1em;
+    background-image: url(../img/fondo2.jpg);
+    font-size: x-large;
+}
+
+main h2 {
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+   
+}
+
+
+
+header img{
+    float: left;
+    width: 5rem;
+    height: 5rem;
+}
+
+h1{
+    display: none;
+}
+
+
+/* Configuracion productos */
+
+.productos{
+    float: auto;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.producto{
+    margin: 5px;
+    float:  left;
+    border: 2px solid rgb(30, 43, 63);
+    border-radius: 1rem;
+}
+
+
+
+.producto img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.producto h2{
+    margin: 10 px 0;
+}
+
+.producto a{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+/*aside*/
+.accesorio img{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+aside h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(30, 43, 63);
+    border-radius: 1rem;
+}
+
+
+.form{
+
+color: white;
+font-weight: 400;
+}
+
+.form-text{
+    color: rgb(f, f, f);
+    font-weight: 400;
+}
+
+
+footer {
+    grid-area: footer;
+    color: rgb(201, 10, 10);
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  /*border: 2px solid red;*/
+}
+
+
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+
+}
+
+.fa-facebook-f:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px red,
+                0 0 45px red,
+                0 0 75px red,
+                0 0 115px red;
+
+}
+
+
+.fa-twitter:hover{
+    background-color: rgb(17, 0, 255);
+    color: white;
+    box-shadow:  0 0 115px rgb(17, 0, 255),
+    0 0 75px rgb(17, 0, 255),
+    0 0 45px rgb(17, 0, 255),
+    0 0 15px rgb(17, 0, 255);
+}
+
+
+.fa-instagram:hover{
+    background-color: rgb(29, 170, 60);
+    color: white;
+    box-shadow: 0 0 115px rgb(29, 170, 60),
+                0 0 75px rgb(29, 170, 60),
+                0 0 45px rgb(29, 170, 60),
+                0 0 15px rgb(29, 170, 60);
+
+}
+
+.fa-linkedin-in:hover{
+    background-color: rgb(167, 196, 38);
+    color: white;
+    box-shadow: 0 0 15px rgb(167, 196, 38),
+                0 0 45px rgb(167, 196, 38),
+                0 0 75px rgb(167, 196, 38),
+                0 0 115px rgb(167, 196, 38);
+
+}
