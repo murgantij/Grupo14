@@ -8,9 +8,9 @@ body {
     grid-template-rows: auto 1fr auto;
     gap: 10px;
     margin: 0 auto;
-    /*border: 5px dotted red*/ ;
     background-image: url(../img/fondo4.jpg);
-  
+    /*border: 5px dotted red*/ ;
+
 }
 
 
@@ -30,10 +30,10 @@ main {
         "productos"
         "video";*/
     
-    margin: 00px auto;
-    padding-bottom: 50px;
+    margin: 0px auto;
+    padding-top: 00px;
     width: 50%;
-    /*border: 5px dotted red*/ ;
+    
 
 }
 
@@ -69,37 +69,21 @@ main {
 }
 
 
-.card-img-top{
-   /* width: 50%;
-    height: 50%;*/
-}
-
-
-
-/*
-main {
-    grid-area: main;
-    padding: 1em;
-    border: 5px dotted red ;
-
-}
-*/
 
 main h2 {
     font-family: "Sail", system-ui;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-}
-/*
-footer {
-    grid-area: footer;
+    background-color: black;
     color: white;
+}
+
+.card-text{
+    font-family: "Sail", system-ui;
+    font-style: normal;
     text-align: center;
-    padding: 1em;
-    background-color: rgb(25, 24, 24);
-  
-}*/
+    }
 
 header img{
     float: left;
@@ -110,10 +94,6 @@ header img{
 h1{
     display: none;
 }
-
-div{ /*/*border: 5px dotted red*/*/ ;}
-section{ /*/*border: 5px dotted red*/*/ ;}
-
 
 
 .navbar {
@@ -152,6 +132,37 @@ section{ /*/*border: 5px dotted red*/*/ ;}
     background-color: #575757;
 }
 
+
+
+
+.instrumentos{
+  /*  width: 80%;*/
+    overflow: hidden;
+    float: right;
+    margin: 5px;
+
+    
+}
+
+
+.remeras{
+    /*  width: 80%;*/
+      overflow: hidden;
+      float: right;
+      margin: 0 5px 5px 5px;
+    
+   
+}
+
+  
+.posters{
+    /*  width: 80%;*/
+      overflow: hidden;
+      float: right;
+      margin: 0 5px 5px 5px;
+
+  }
+  
 
 
 
