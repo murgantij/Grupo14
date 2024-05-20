@@ -33,10 +33,10 @@ section{
 .home{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     height: 100vh;
     width: 100vw;
-    background: url(/img/fondomain.png) no-repeat center center;
+    background: url(/img/main_sinlogo.png) no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -51,18 +51,19 @@ section{
 
 .home .content h3{
     font-size: 6rem;
-    color: #e5e2e2;
+    color: var(--lila);
+    
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color: #e5e2e2;
+    color: var(--lila);
     pad: 1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: #e5e2e2;
     pad: 1rem 0;
     line-height: 1.5;
@@ -94,9 +95,20 @@ header{
     text-align: center;
     font-size: 4rem;
     color: var(--lila);
-    padding: 1rem;
+    padding: 3rem;
     margin: 2rem;
     background: #e3e3e3
+
+}
+
+.headingNosotros{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--lila);
+    padding: 3rem;
+    margin: 2rem;
+    background: #e3e3e3;
+    
 
 }
 
@@ -285,6 +297,47 @@ header .fa-bars{
 }
 
 
+/* Sobre nosotros */
+
+
+.Equipo .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Equipo .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1) ;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.1);
+    position: relative;
+    
+}
+.Equipo .box-container .box  img{
+    width: 30rem;
+    height: 30rem;
+    
+}
+.Equipo .box-container .box  .card-text{
+    font-size: 2rem;
+    
+}
+
+
+
+
+
+.Equipo .box-container .box .content{
+    text-align: center;
+    padding: 2rem;
+}
+.Equipo .box-container .box .content h3{
+   font-size: 2.5rem;
+   color: #000;
+}
+
+
 
 
 
@@ -323,6 +376,12 @@ header .fa-bars{
     }
     .home{
         background-position: left;
+    }
+
+    .Equipo .box-container .box  img{
+        width: 30rem;
+        height: 30rem;
+        margin-left: 20%;
     }
 }
 
@@ -365,6 +424,14 @@ header #toggler:checked ~ .navbar{
         font-size: 2.5rem;
         
      }
+
+     .Equipo .box-container .box  img{
+        width: 30rem;
+        height: 30rem;
+        margin-left: 20%;
+    }
+
+   
 
     }
 @media (max-width: 450px){
