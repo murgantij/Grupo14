@@ -32,7 +32,7 @@ main {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 50%;
-    /*border: 5px dotted red*/ ;
+    /* border: 5px dotted red; */
 
 }
 
@@ -40,16 +40,18 @@ main {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente */
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     text-align: center;
-   /* border: 5px dotted red;*/
+     /* border: 5px dotted red; */
 }
 
 .Nosotros {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente */
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+   /*  border: 5px dotted red; */
+    
 }
 
 .Productos {
@@ -57,6 +59,17 @@ main {
     justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente */
     padding-bottom: 5rem;
+}
+.card-header{
+    background-color: #1e1834;
+    color: aliceblue;
+    }
+
+.card-footer{
+    height: 80px;
+    background-color: #1e1834;
+    color: aliceblue;
+   
 }
 
 .Video {
@@ -69,8 +82,8 @@ main {
 
 
 .card-img-top{
-   /* width: 50%;
-    height: 50%;*/
+   padding: 10px; auto;
+   
 }
 
 
@@ -120,11 +133,11 @@ section{ /*/*border: 5px dotted red*/*/ ;}
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #1e1834;
 }
 
 .logo img {
-    height: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    height: 80px; /* Ajusta el tamaño del logo según sea necesario */
 }
 
 .nav-items {
