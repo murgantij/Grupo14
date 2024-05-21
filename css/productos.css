@@ -10,16 +10,22 @@
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1) ;
     border-radius: .5rem;
     border: .1rem solid rgba(0,0,0,.1);
+    width: 23%;
     position: relative;
+    overflow-x: hidden;
+    background-color: white;
     
 }
 .catalog .box-container .box .imagen img{
-    width: 35rem;
-    height: 35rem;
+    width: 30rem;
+    height: 30rem;
 }
 
-.catalog .box-container .box:hover .imagen{
-    transform: scale(1.2);
+.catalog .box-container .box:hover{
+
+
+    transform: scale(1.1); /* Solo escala la caja en sí */
+    z-index: 20;
 }
 
 .catalog .box-container .box .imagen{
@@ -34,6 +40,6 @@
     padding: 6rem;
 }
 .catalog .box-container .box .content h3{
-   font-size: 3rem;
+   font-size: 2rem;
    color: var(--azulOscuro);
 }
