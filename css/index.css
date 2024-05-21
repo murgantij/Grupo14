@@ -5,15 +5,15 @@
 
 
 }
-
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
 *{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important ;
     outline: none;
     border: none;
-    text-decoration: none; 
+    text-decoration: none !important; 
     text-transform: capitalize;
     transition: .2s linear;
     
@@ -105,8 +105,8 @@ header{
     text-align: center;
     font-size: 4rem;
     color: var(--lila);
-    padding: 3rem;
-    margin: 2rem;
+    padding: 3rem !important;
+    margin: 3rem !important;
     background: #e3e3e3;
     
 
@@ -159,19 +159,19 @@ header .fa-bars{
 }
 
 .about .row{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
+    display: flex !important; 
+    align-items: center !important;
+    gap: 2rem !important;
+    flex-wrap: wrap !important;
+    padding: 2rem 0 !important;
+    padding-bottom: 3rem !important;
 
 }
 
 .about .row .presentacion{
-    flex: 1 1 40rem;
-    position: relative;
-    height: 40rem;
+    flex: 1 1 40rem !important;
+    position: relative !important;
+    height: 40rem !important;
 }
 
 .about .row .presentacion iframe{
@@ -187,7 +187,7 @@ header .fa-bars{
 
 
 .about .row .content{
-    flex:1 1 40rem ;
+    flex:1 1 40rem !important;
 }
 
 .about .row .content h3{
