@@ -13,7 +13,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     border: none;
-    text-decoration: none; 
+    text-decoration: none !important; 
     text-transform: capitalize;
     transition: .2s linear;
     
@@ -340,7 +340,38 @@ header .fa-bars{
 
 
 
+/* Nosotros */
 
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 80%;
+    max-width: 600px;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item {
+    flex: none;
+    scroll-snap-align: center;
+    width: 100%;
+    max-width: 200px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
 
 
 
