@@ -43,6 +43,19 @@ section{
     
 
 }
+.homeProductos{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100vh;
+    width: 100vw;
+    background: url(/img/formaPago.png) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
 
 .home .content{
     max-width: 50rem;
@@ -167,11 +180,30 @@ header .fa-bars{
     padding-bottom: 3rem;
 
 }
+.aboutNosotros{
+    margin-top: 7rem;
+}
+
+.aboutNosotros .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+
+}
 
 .about .row .presentacion{
     flex: 1 1 40rem;
     position: relative;
     height: 40rem;
+}
+
+.aboutNosotros .row .presentacion{
+    flex: 1 1 40rem;
+    position: relative;
+    height:35rem;
 }
 
 .about .row .presentacion iframe{
@@ -186,7 +218,13 @@ header .fa-bars{
 }
 
 
+
+
 .about .row .content{
+    flex:1 1 40rem ;
+}
+
+.aboutNosotros .row .content{
     flex:1 1 40rem ;
 }
 
@@ -196,8 +234,18 @@ header .fa-bars{
 
 }
 
+
 .about .row .content p{
     font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem ;
+    line-height: 1.5;
+    
+}
+
+.aboutNosotros .row .content p{
+    font-size: 2rem;
     color: #999;
     padding: .5rem 0;
     padding-top: 1rem ;
