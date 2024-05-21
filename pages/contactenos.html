@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo 14 - Music Store</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
  <!-- CSS -->
-
- <link rel="stylesheet" href="/css/index.css">
-
+ 
+ <link rel="stylesheet" href="../css/index.css">
+ <link rel="stylesheet" href="../css/contactenos.css">
 
 </head>
 <body>
@@ -23,9 +25,15 @@
 
     <nav class="navbar">
       <a href="../index.html">Home</a>
+<<<<<<< HEAD
       <a href="nosotros.html">Nosotros</a>
       <a href="productos.html">Productos</a>
       <a href="contactenos.html">Contactos</a>
+=======
+      <a href="../pages/nosotros.html">Nosotros</a>
+      <a href="../pages/productos.html">Productos</a>
+      <a href="../pages/contactenos.html">Contactos</a>
+>>>>>>> ba0bf1768b2efdf961fd8d6f0774f1537227ebd2
 
     </nav>
 </header>
@@ -36,6 +44,76 @@
   <section class="home" id="home">
     <div class="formulario"> 
       
+
+      <div class="container-flow mb-12">
+        <form name="contactenos" onsubmit="return validarFormulario()" >
+
+          <div class="form-group">
+            <div class="mb-8">
+              <label for="nombre" class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control" id="nombre" size="5">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiermos tu email.</div>
+          </div>
+          <div class="form-group">
+
+            <h4>Cual es tu seccion favorita una seccion</h4>
+            <label>
+            <input type="radio" name="seccion" value="instrumentos">
+            <img src="../img/instrumentos.jpg" alt="instrumentos" style="width:100px;height:100px;">
+            </label>
+
+            <label>
+            <input type="radio" name="seccion" value="remeras">
+            <img src="../img/remera.jpg" alt="remeras" style="width:100px;height:100px;">
+            </label>
+
+            <label>
+            <input type="radio" name="seccion" value="posters">
+            <img src="../img/poster.jpg" alt="posters" style="width:100px;height:100px;">
+            </label>
+        </div>
+        <div class="form-group">
+          <h4>Selecciona una opción</h4>
+          <select name="provincias" id="provincias">
+          <option value="">Elija una provincia</option>
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Catamarca">Catamarca</option>
+          <option value="Chaco">Chaco</option>
+          <option value="Chubut">Chubut</option>
+          <option value="Córdoba">Córdoba</option>
+          <option value="Corrientes">Corrientes</option>
+          <option value="Entre Ríos">Entre Ríos</option>
+          <option value="Formosa">Formosa</option>
+          <option value="Jujuy">Jujuy</option>
+          <option value="La Pampa">La Pampa</option>
+          <option value="La Rioja">La Rioja</option>
+          <option value="Mendoza">Mendoza</option>
+          <option value="Misiones">Misiones</option>
+          <option value="Neuquén">Neuquén</option>
+          <option value="Río Negro">Río Negro</option>
+          <option value="Salta">Salta</option>
+          <option value="San Juan">San Juan</option>
+          <option value="San Luis">San Luis</option>
+          <option value="Santa Cruz">Santa Cruz</option>
+          <option value="Santa Fe">Santa Fe</option>
+          <option value="Santiago del Estero">Santiago del Estero</option>
+          <option value="Tierra del Fuego">Tierra del Fuego</option>
+          <option value="Tucumán">Tucumán</option>
+          </select>
+      </div>
+
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="checkOption">
+        <label class="form-check-label" for="checkOption">Aceptar términos y condiciones</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
     
     </section>
     
@@ -73,4 +151,5 @@
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../js/form.js"></script>
 </html>
