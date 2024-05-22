@@ -198,6 +198,7 @@ form {
     border-radius: 5px;
     margin: 10px auto;
     padding: 10px;
+    box-shadow: 0 0 15px 5px rgb(115 108 144);
 }
 .form-group label {
     display: block;
