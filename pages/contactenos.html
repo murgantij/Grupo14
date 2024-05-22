@@ -23,7 +23,8 @@
 <body>
 <!-- Header --> 
 <header>
-
+<script>
+</script>
   <input type="checkbox" name="" id="toggler">
   <label for="toggler" class="fas fa-bars"></label>
   <a href="../index.html" class="logo">
@@ -47,7 +48,7 @@
     <div class="form-container">
       <div class="form-item1"></div>
       <div class="form-item2"> 
-        <form name="contactenos" onsubmit="return validarFormulario()" >
+        <form name="contactenos" onsubmit="return validarFormulario();" >
           <div class="form-group">
             <label for="nombre" class="form-label">Nombre Completo</label>
             <input type="text" class="form-control" id="nombre" size="5">
@@ -106,7 +107,7 @@
           </div>
           <div class="form-group checkbox-group">
             <label for="terms">Acepto los términos y condiciones</label>
-            <input type="checkbox" id="terms" name="terms" required>
+            <input type="checkbox" id="terms" name="terms" >
               
           </div>
           <div class="form-group button-group">
@@ -154,7 +155,9 @@
 <!-- Fin del Footer -->
     
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../js/form.js"></script>
 </html>
 
 
