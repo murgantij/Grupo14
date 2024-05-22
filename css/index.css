@@ -186,13 +186,16 @@ header .fa-bars{
 
 .aboutNosotros .row{
     display: flex;
-    align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
     padding: 2rem 0;
     padding-bottom: 3rem;
-
+    align-items: baseline;
+   
 }
+@media (min-width: 1971px){
+    .aboutNosotros .row{ align-items: center;}
+ }
 
 .about .row .presentacion{
     flex: 1 1 40rem;
