@@ -49,7 +49,7 @@ section{
     justify-content: right;
     height: 100vh;
     width: 100vw;
-    background: url(/img/formaPago.png) no-repeat center center;
+    background: url(../img/formaPago.png) no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
