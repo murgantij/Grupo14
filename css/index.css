@@ -14,7 +14,7 @@
     outline: none;
     border: none;
     text-decoration: none !important; 
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
     
 }
@@ -43,7 +43,7 @@ section{
     
 
 }
-.homeProductos{
+/* .homeProductos{
     display: flex;
     align-items: center;
     justify-content: right;
@@ -55,7 +55,7 @@ section{
     background-attachment: fixed;
     
 
-}
+} */
 
 .home .content{
     max-width: 50rem;
@@ -76,7 +76,7 @@ section{
 }
 
 .home .content p{
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color: #e5e2e2;
     pad: 1rem 0;
     line-height: 1.5;
@@ -106,17 +106,16 @@ header{
 
 .heading{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--lila);
     padding: 3rem;
-    margin: 2rem;
-    background: #e3e3e3
-
+    margin: 2.5rem;
+    background: #e3e3e3 
 }
 
 .headingNosotros{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--lila);
     padding: 3rem;
     margin: 2rem;
@@ -169,7 +168,7 @@ header{
    /* background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;    
+    font-size: 20px;    
   }
   
   
@@ -215,6 +214,7 @@ font-size: large;
     width: 40%;
     padding: 8px;
     box-sizing: border-box;
+    font-size: 15px;
 }
 .form-group input[type="radio"] {
     width: auto;
@@ -439,12 +439,12 @@ header .fa-bars{
 }
 
 .aboutNosotros .row .content p{
-    font-size: 2rem;
-    color: #999;
+    font-size: 1.5rem;
+    color: #2c2b2b;
     padding: .5rem 0;
     padding-top: 1rem ;
     line-height: 1.5;
-    
+
 }
 
 
