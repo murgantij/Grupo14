@@ -392,6 +392,7 @@ header .fa-bars{
     flex: 1 1 40rem;
     position: relative;
     height: 40rem;
+    overflow-x: hidden;
 }
 
 .aboutNosotros .row .presentacion{
