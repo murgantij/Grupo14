@@ -168,7 +168,7 @@ header{
    /* background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     padding: 20px 0;
-    font-size: 20px;    
+    font-size: 2rem;    
   }
   
   
@@ -399,7 +399,7 @@ header .fa-bars{
     flex: 1 1 40rem;
     position: relative;
     height:35rem;
-    overflow-x: hidden;
+   /* overflow-x: hidden; */
 }
 
 .about .row .presentacion iframe{
