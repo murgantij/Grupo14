@@ -392,13 +392,14 @@ header .fa-bars{
     flex: 1 1 40rem;
     position: relative;
     height: 40rem;
-    overflow-x: hidden;
+    
 }
 
 .aboutNosotros .row .presentacion{
     flex: 1 1 40rem;
     position: relative;
     height:35rem;
+    overflow-x: hidden;
 }
 
 .about .row .presentacion iframe{
